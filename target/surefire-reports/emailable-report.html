@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">19</td><td class="num">0</td><td class="num">0</td><td class="num">234</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">dbstub.ProductsDBStubTest</td><td><a href="#m0">addProductTest</a></td><td rowspan="1">1555405167658</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m1">addProductWithExistingBarcodeTest</a></td><td rowspan="1">1555405167658</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m2">addProductWithNullBarcodeTest</a></td><td rowspan="1">1555405167673</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m3">addProductWithZeroBarcodeTest</a></td><td rowspan="1">1555405167673</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m4">addProductsInBatchTest</a></td><td rowspan="1">1555405167673</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m5">findProductByBarcodeTest</a></td><td rowspan="1">1555405167673</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m6">isBarcodeInDBTest</a></td><td rowspan="1">1555405167673</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="2">output.PrinterOutputStubTest</td><td><a href="#m7">writeTextCreatesFileTest</a></td><td rowspan="1">1555405167673</td><td rowspan="1">16</td></tr><tr class="passedodd"><td><a href="#m8">writeTextTest</a></td><td rowspan="1">1555405167689</td><td rowspan="1">78</td></tr><tr class="passedeven"><td rowspan="2">output.ScreenOutputStubTest</td><td><a href="#m9">writeTextCreatesFileTest</a></td><td rowspan="1">1555405167782</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m10">writeTextTest</a></td><td rowspan="1">1555405167782</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="8">sale.SaleTest</td><td><a href="#m11">endingSalePrintsRecipeOnPrinterTest</a></td><td rowspan="1">1555405167782</td><td rowspan="1">16</td></tr><tr class="passedodd"><td><a href="#m12">endingSalePrintsSumOnScreenTest</a></td><td rowspan="1">1555405167798</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m13">endingSaleSumAllPricesTest</a></td><td rowspan="1">1555405167814</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m14">scanProductWithNullBarcodeTest</a></td><td rowspan="1">1555405167814</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m15">scanProductWithUnknownBarcodeTest</a></td><td rowspan="1">1555405167814</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m16">scanProductWithZeroBarcodeTest</a></td><td rowspan="1">1555405167829</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m17">scannedProductIsOnReceiptTest</a></td><td rowspan="1">1555405167829</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m18">scannedProductIsPrintedOnScreenTest</a></td><td rowspan="1">1555405167829</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Command line test</h2><h3 id="m0">dbstub.ProductsDBStubTest#addProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">dbstub.ProductsDBStubTest#addProductWithExistingBarcodeTest</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">product.BarcodeInUseException: This barcode is already in use.
+	at dbstub.ProductsDBStub.addProduct(ProductsDBStub.java:45)
+	at dbstub.ProductsDBStubTest.addProductWithExistingBarcodeTest(ProductsDBStubTest.java:39)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">dbstub.ProductsDBStubTest#addProductWithNullBarcodeTest</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">product.InvalidBarcodeException: Barcode has to be integer number greater than 0.
+	at dbstub.ProductsDBStub.addProduct(ProductsDBStub.java:42)
+	at dbstub.ProductsDBStubTest.addProductWithNullBarcodeTest(ProductsDBStubTest.java:45)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">dbstub.ProductsDBStubTest#addProductWithZeroBarcodeTest</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">product.InvalidBarcodeException: Barcode has to be integer number greater than 0.
+	at dbstub.ProductsDBStub.addProduct(ProductsDBStub.java:42)
+	at dbstub.ProductsDBStubTest.addProductWithZeroBarcodeTest(ProductsDBStubTest.java:51)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">dbstub.ProductsDBStubTest#addProductsInBatchTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">dbstub.ProductsDBStubTest#findProductByBarcodeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">dbstub.ProductsDBStubTest#isBarcodeInDBTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">output.PrinterOutputStubTest#writeTextCreatesFileTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">output.PrinterOutputStubTest#writeTextTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">output.ScreenOutputStubTest#writeTextCreatesFileTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">output.ScreenOutputStubTest#writeTextTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">sale.SaleTest#endingSalePrintsRecipeOnPrinterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">sale.SaleTest#endingSalePrintsSumOnScreenTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">sale.SaleTest#endingSaleSumAllPricesTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">sale.SaleTest#scanProductWithNullBarcodeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">sale.SaleTest#scanProductWithUnknownBarcodeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">sale.SaleTest#scanProductWithZeroBarcodeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">sale.SaleTest#scannedProductIsOnReceiptTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">sale.SaleTest#scannedProductIsPrintedOnScreenTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

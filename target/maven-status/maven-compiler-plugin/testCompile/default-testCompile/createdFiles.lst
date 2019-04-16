@@ -1,0 +1,4 @@
+output\ScreenOutputStubTest.class
+sale\SaleTest.class
+output\PrinterOutputStubTest.class
+dbstub\ProductsDBStubTest.class
